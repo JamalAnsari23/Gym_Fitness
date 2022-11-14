@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://kit.fontawesome.com/f3e8fc9f1d.js" crossorigin="anonymous"></script>
+	<title>About Us</title>
+	<style type="text/css">
+		body{
+			background:url("gymabout.jpg");
+			margin: 0px;
+			padding: 0px;
+			/*min-height: 250vh;*/
+			background-size: 100vw 224vh;
+			height: 100%;
+			background-repeat: no-repeat;
+			/*color: white;*/
+		}
+		#top{
+			/*border: 2px solid greenyellow;*/
+			color: white;
+			background-color: #6CABA4;
+			display: flex;
+			/*display: inline-block;*/
+			/*float: left;*/
+			width: 100%;	
+		}
+		#top a{
+			color: white;
+		}
+		/*.topper{
+			display: inline-block;
+			float: left;
+		}*/
+		header{
+			position: sticky;
+			top: 0px;
+			display: inline-block;
+			float: left;
+			/*border: 2px solid green;*/
+			width: 100%;
+		}
+		header img{
+			display: inline-block;
+			float: left;
+			margin-left: 25px;
+			margin-bottom: 10px;
+			height: 90px;
+			width: 80px;
+		}
+		header li{
+			display: inline-block;
+			float: left;
+			margin-top: 20px;
+			margin-left: 80px;
+			font-size: 24px;
+		}
+		header li a{
+			text-decoration: none;
+			color: white;
+		}
+		header span {
+			display: inline-block;
+			float: left;
+			margin-top: 20px;
+			/*color: white;
+			text-decoration-color: white;*/
+			
+		}
+		header span a{
+			color: white;
+		}
+		.rside{
+			writing-mode: vertical-rl;
+			border: 2px solid orange;
+			position: relative;
+			float: right;
+			margin-top: 120px;
+			margin-right: 200px;
+			color: white;
+			text-shadow: 4px 4px 5px red;
+					}
+					header li a:hover{
+						background-color: grey;
+					}
+		.about{
+			color: #6CABA4;
+			margin-top: 200px;
+			margin-left: 500px;
+		}
+		.john{
+			display: inline-block;
+			float: left;
+			margin: 10px;
+		}
+		.johnp{
+			display: inline-block;
+			float: right;
+      color: white;
+			margin: 5px;
+			/*border: solid;*/
+			width: 25%;
+			height: 500px;
+			text-align: justify;
+		}
+
+		.john img{
+			display: inline-block;
+			float: left;
+			width: 35%;
+			height: 650px;
+		}
+		/*Here we start Trainers description*/
+		#headingmid{
+			color: #6CABA4;
+		}
+		#trainer{
+			display: inline-block;
+			float: left;
+		}
+		#trainerimg{
+			display: inline-block;
+			float: left;
+		}
+		#trainerdesc{
+			/*border: 1px solid red;*/
+			text-align: justify;
+			color: white;
+			margin-left: 950px;
+			margin-right: 40px;
+			padding: 10px;
+			height: 400px;
+			width: 370px;
+
+		}
+		#trainerdesc a{
+			color: white;
+		}
+		#trainerdesc h1{
+			color: #6CABA4;
+		}
+		
+         * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 32%;
+  height: 330px;
+  margin: 7px;
+  padding: 10px;
+}
+.column:hover{
+	cursor: pointer;
+	  background-color: #4C56F1;
+   background-image: linear-gradient(#4C56F1,#72EE10,#CD3FDC);
+   border: none;
+   border-right: 5px solid #F74E67;
+
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+	/*Here we start description*/
+		.row2{
+	margin-top: 35px;
+	margin-left: 50px;
+
+
+}
+
+/* Create four equal columns that floats next to each other */
+.column2{
+  float: left;
+  margin:12px;
+  width: 22%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  border: none;
+  border-left: 5px solid #3EF65A;
+  background-color: red;
+   background-image: linear-gradient(red,yellow);
+
+}
+.column2:hover{
+	cursor: pointer;
+	  background-color: #4C56F1;
+   background-image: linear-gradient(#4C56F1,#72EE10,#CD3FDC);
+   border: none;
+   border-right: 5px solid #F74E67;
+
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  /*Here we end discription*/
+footer{
+	border: 2px solid #6CABA4;
+			margin-top: 5px;
+			margin-bottom: 0;
+			text-align: center;
+			background-color: #6CABA4;
+			/*padding: 5px;*/
+			width: 100%;
+			color: white;
+			
+			bottom: 0;
+		}
+	
+		footer h2{
+			color: white;
+			bottom: 0;
+		}
+		
+	</style>
+
+</head>
+<body>
+		<div id="top">
+		<h1>JAMAL FITNESS</h1>
+		<!-- <div class="topper"> -->
+			<span style="margin-top: 22px; padding-left:40px; color:white; font-size:1.5em;"><a target="_blank" href="http://phone.com"><i class="fas fa-phone-square-alt">:-8207454525</a></i></span>
+			<span style="margin-top: 22px; padding-left: 40px; color: white; font-size: 1.5em;"><a target="_blank" href="http://gmail.com"><i class="fas fa-envelope">:-mdjamalansari939@gmail.com</i></a></span>
+			<span style="margin-top: 20px; padding-left: 50px; color: black; font-size: 3em;"><a target="_blank" href="http://facebook.com"><i class="fab fa-facebook"></a></i></span>
+		
+		<span style="margin-top: 14px; padding-left: 60px; color: white; font-size: 3em;"><a target="_blank" href="http://twitter.com"><i class="fab fa-twitter-square"></i></a></span>
+		<span style= "margin-top: 14px;padding-left: 60px; color: black; font-size: 3em;"><a target="_blank" href="http://whatsapp.com"><i class="fab fa-whatsapp-square"></i></a></span>
+		<span style="margin-top: 14px; padding-left: 60px; color: black; font-size: 3em;"><a target="_blank" href="http://instagram.com"><i class="fab fa-instagram-square"></i></a></span>
+
+		</div>
+	<!-- </div> -->
+		<header class="header">
+		<div>
+			<img src="gymlogo3.jpg" alt="not display">
+			<ul>
+			 <li><a href="Jamalfitness.html"class="active">Home</a></li>
+			 <li><a href="Aboutus.html">About Us</a></li>
+			 <li><a href="ourservices.html">Our Servivces</a></li>  
+			 <li><a href="Enquiry.html">Enquiry</a></li>
+			 <li><a href="Gallery.html">Gallery </a></li>
+			 <li><a href="contact.html">Contact</a></li>
+			 <li><a href="admin.html">Admin Login</a></li>
+			</ul>
+		</div>
+	</header>
+		<div class="about">
+			<h1>About us</h1>
+		</div>
+		<div class="john">
+			<img src="gymgirl.jpg">
+				<div class="johnp">
+					<h2>About us</h2>
+					<h1>WE ARE JAMAL FITNESS, THE BEST GYM IN PATNA.</h1>
+
+             <p>
+              We at Jamal fitness aspire to propagate healthy living and the same level of enthusiasm we feel towards fitness onto others. At Jamal Gym, our vision is to help everyday people like you to step out of their comfort zone and push their limits towards a stronger and healthier lifestyle. Ever since our establishment, we have hoped to provide a safe and nurturing environment for people with all varieties of fitness levels, and hope to continue our valiant effort and keep being one of the best gyms in Patna. At Jamal Gym, you will find expert personal trainers that are always there to help you out, should you need it. Workout with state-of-the-art equipments and build your dream physique at the best gym in Patna, Jamal Fitness.
+			</p>
+			</div>
+		</div>
+    <div id="headingmid"><h1>Our Trainers</h1></div>
+    <div id="trainer">
+    	<div id="trainerimg"><img src="batista.jpg" height="400px width=400px"></div>
+    	<div id="trainerdesc"><h1>TRAINER 1</h1>
+<h2>LEAD TRAINER</h2>
+Welcome to Jamal fitness gym! I have been an expert in crossfit and endurance training for more than 5 years now, and would love for us to get together and train a little! Come over to Jamal Fitness if you would like to learn from me, and be better at what you dreamt of doing. We are the best gym in Patna and here, we don’t just talk big, but instead, we put our words into practice.
+
+Train with state-of-the-art equipment and under personal guidance of expert trainers like me at the best gym in Buddha 
+Colony Patna, Jamal Fitness Gym.<br>
+<span style="color: black; font-size: 3em;"><a target="_blank" href="http://facebook.com"><i class="fab fa-facebook"></a></i></span>
+		
+		<span style="color: white; font-size: 3em;"><a target="_blank" href="http://twitter.com"><i class="fab fa-twitter-square"></i></a></span>
+		<span style=" color: black; font-size: 3em;"><a target="_blank" href="http://whatsapp.com"><i class="fab fa-whatsapp-square"></i></a></span>
+		<span style=" color: black; font-size: 3em;"><a target="_blank" href="http://instagram.com"><i class="fab fa-instagram-square"></i></a></span></div>
+    </div>
+
+		<h2>HAVE A LOOK AT OUR FEATURED CLASSES</h2>
+<div class="row2">
+  <div class="column">
+    <img src="yoga.jpg" alt="Yoga" style="width:100%">
+    <figcaption>Yoga</figcaption>
+  </div>
+  <div class="column">
+    <img src="cardio.jpg" alt="Cardio" style="width:100%" height="312px">
+    <figcaption>cardio</figcaption>
+  </div>
+  <div class="column">
+    <img src="crossfit.jpg" alt="Cross-Fit" style="width:100%" height="312px">
+    <figcaption>Cross-Fit</figcaption>
+  </div>
+</div>
+		<div class="row2">
+  <div class="column2">
+    <img src="gymlogo3.jpg" alt="gymlogo" height="100px"width="100px">
+    <p>At Ansari Fitness Gym, we believe in providing a holistic gymming and workout experience to our customers.</p>
+  </div>
+  <div class="column2">
+    <h2>Visit us</h2>
+    <br>
+    <p> Buddha colony near Gandhi murti, patna-800001</p>
+    <h3>Mobile Number</h3>
+      <h4>8207454525</h4>
+      <h4>7050982878</h4>
+  </div>
+  <div class="column2">
+   <h1>QUICK LINKS</h1>
+    <h2>About Ansari Fitness</h2>
+
+     <h3>Enquiry</h3>
+
+     <h3>Our Services</h3>
+
+     <h3>Sitemap</h3>
+  </div>
+  <div class="column2" style="background-color:#ddd;">
+    <h1>Connect with us</h1>
+    <h2>Email ID</h2>
+    <p>mdjamalansari939@gmail.com</p>
+    <span style="color: black; font-size: 3em;"><a target="_blank" href="http://facebook.com"><i class="fab fa-facebook"></a></i></span>
+		
+		<span style="color: black; font-size: 3em;"><a target="_blank" href="http://twitter.com"><i class="fab fa-twitter-square"></i></a></span>
+		<span style=" color: black; font-size: 3em;"><a target="_blank" href="http://whatsapp.com"><i class="fab fa-whatsapp-square"></i></a></span>
+		<span style=" color: black; font-size: 3em;"><a target="_blank" href="http://instagram.com"><i class="fab fa-instagram-square"></i></a></span>
+		
+
+  </div>
+</div>
+		<footer>
+			<h2>2021 All rights reserved. Designed by Software Research Center</h2>
+		</footer>
+		
+
+</body>
+</html>

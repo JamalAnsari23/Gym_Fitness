@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Our Services</title>
+	<style type="text/css">
+		body{
+			/*background:url("batista.jpg");*/
+			margin: 0px;
+			padding: 0px;
+			/*min-height: 200vh;*/
+			background-size: 100vw 260vh;
+			background-repeat: no-repeat;
+			color: white;
+			
+		}
+		#top{
+			/*border: 2px solid greenyellow;*/
+			color: white;
+			background-color: #6CABA4;
+			display: flex;
+			/*float: left;*/
+			width: 100%;	
+		}
+		#top a{
+			color: white;
+		}
+		/*.topper{
+			display: inline-block;
+			float: left;
+		}*/
+		header{
+			position: sticky;
+			top: 0px;
+			display: inline-block;
+			float: left;
+			/*border: 2px solid green;*/
+			width: 100%;
+			background-color: black;
+		}
+		header img{
+			display: inline-block;
+			float: left;
+			margin-left: 25px;
+			margin-bottom: 10px;
+			height: 90px;
+			width: 80px;
+		}
+		header li{
+			display: inline-block;
+			float: left;
+			margin-top: 20px;
+			margin-left: 80px;
+			font-size: 24px;
+		}
+		header li a{
+			text-decoration: none;
+			color: white;
+		}
+		header span {
+			display: inline-block;
+			float: left;
+			margin-top: 20px;
+			/*color: white;
+			text-decoration-color: white;*/
+			
+		}
+		header span a{
+			color: white;
+		}
+		.rside{
+			writing-mode: vertical-rl;
+			border: 2px solid orange;
+			position: relative;
+			float: right;
+			margin-top: 120px;
+			margin-right: 200px;
+			color: white;
+			text-shadow: 4px 4px 5px red;
+					}
+					header li a:hover{
+						background-color: grey;
+					}
+		.btn{
+			margin: 0px 9px;
+			background-color: black;
+			color: white;
+			padding: 7px 15px;
+			border:2px solid grey;
+			border-radius: 13px;
+			font-size: 17px;
+			cursor: pointer;
+			font-family: "Times New Roman", Times, serif;
+
+		}
+		.btn:hover{
+			background-color: #aaa;
+		}
+		.ourservices{
+			color: #6CABA4;
+			margin-top: 80px;
+			margin-left: 500px;
+			font-size: 2.3rem;
+		}
+		.john{
+			display: inline-block;
+			float: left;
+			margin: 10px;
+		}
+		.johnp{
+			display: inline-block;
+			float: right;
+
+			margin: 5px;
+			/*border: solid;*/
+			width: 25%;
+			height: 500px;
+			color: black;
+		}
+		.john img{
+			display: inline-block;
+			float: left;
+			width: 35%;
+			height: 550px;
+		}
+		.steam{
+			margin-top: 700px;
+			margin-left: 400px;
+			font-size: 2.3rem;
+			color: black;
+		}
+		.bath{
+			display: inline-block;
+			float: left;
+			margin: 100px;
+		}
+		.bathp{
+			display: inline-block;
+			float:left;
+			margin-top: 10px;
+			border: solid;
+			width: 26%;
+			height: 440px;
+			color: black;
+			text-align: justify;
+		}
+		.bath img{
+			display: inline-block;
+			margin-top: 10px;
+			float: right;
+			width: 35%;
+			height: 450px;
+		}
+		/*Here we start some featured classes*/
+		#headingmid{
+			color: black;
+			/*border: 1px solid green;*/
+			text-align: center;
+		}
+		div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  padding: 10px;
+  /*height: auto;*/
+}
+
+div.desc{
+
+  padding: 5px;
+  text-align: center;
+  color: black;
+  background-color: #6CABA4;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 0px;
+  float: left;
+  width: 33%;
+  padding: 7px;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+		/*Here we start description*/
+		.row2{
+	margin-top: 5px;
+	margin-left: 0px;
+
+
+}
+
+/* Create four equal columns that floats next to each other */
+.column2{
+  float: left;
+  margin:12px;
+  width: 22%;
+  padding: 5px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  border: none;
+  border-left: 5px solid #3EF65A;
+  background-color: red;
+   background-image: linear-gradient(red,yellow);
+
+}
+.column2:hover{
+	cursor: pointer;
+	  background-color: #4C56F1;
+   background-image: linear-gradient(#4C56F1,#72EE10,#CD3FDC);
+   border: none;
+   border-right: 5px solid #F74E67;
+
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  /*Here we end discription*/
+		 #bottom{
+		 	border: 2px solid #6CABA4;
+		 	position: relative;
+		 	margin-top: 5px;
+		 	text-align: center;
+		 	background-color: #6CABA4;
+		 	bottom: 0px;
+         }		
+	</style>
+	<script src="https://kit.fontawesome.com/f3e8fc9f1d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+      
+	<div id="top">
+		<h1>JAMAL FITNESS</h1>
+		<!-- <div class="topper"> -->
+			<span style="margin-top: 22px; padding-left:40px; color:white; font-size:1.5em;"><a target="_blank" href="http://phone.com"><i class="fas fa-phone-square-alt">:-8207454525</a></i></span>
+			<span style="margin-top: 22px; padding-left: 40px; color: white; font-size: 1.5em;"><a target="_blank" href="http://gmail.com"><i class="fas fa-envelope">:-mdjamalansari939@gmail.com</i></a></span>
+			<span style="margin-top: 20px; padding-left: 50px; color: black; font-size: 3em;"><a target="_blank" href="http://facebook.com"><i class="fab fa-facebook"></a></i></span>
+		
+		<span style="margin-top: 14px; padding-left: 60px; color: white; font-size: 3em;"><a target="_blank" href="http://twitter.com"><i class="fab fa-twitter-square"></i></a></span>
+		<span style= "margin-top: 14px;padding-left: 60px; color: black; font-size: 3em;"><a target="_blank" href="http://whatsapp.com"><i class="fab fa-whatsapp-square"></i></a></span>
+		<span style="margin-top: 14px; padding-left: 60px; color: black; font-size: 3em;"><a target="_blank" href="http://instagram.com"><i class="fab fa-instagram-square"></i></a></span>
+
+		</div>
+	<!-- </div> -->
+		<header class="header">
+		<div>
+			<img src="gymlogo3.jpg" alt="not display">
+			<ul>
+			 <li><a href="Jamalfitness.html"class="active">Home</a></li>
+			 <li><a href="Aboutus.html">About Us</a></li>
+			 <li><a href="ourservices.html">Our Servivces</a></li>  
+			 <li><a href="Enquiry.html">Enquiry</a></li>
+			 <li><a href="Gallery.html">Gallery </a></li>
+			 <li><a href="contact.html">Contact</a></li>
+			 <li><a href="admin.html">Admin Login</a></li>
+			</ul>
+		</div>
+	</header>
+		<div class="ourservices">
+			<h1>Our services</h1>
+			</div>
+            <div class="john">
+			<img src="servicescover.jpeg" alt="not show">
+				<div class="johnp">
+					<h2>About us</h2>
+					<h1>WE ARE JAMAL FITNESS,THE BEST GYM IN PATNA.</h1>
+
+             <p>
+              We at Jamal fitness aspire to propagate healthy living and the same level of enthusiasm we feel towards fitness onto others. At Jamal Gym, our vision is to help everyday people like you to step out of their comfort zone and push their limits towards a stronger and healthier lifestyle. Ever since our establishment, we have hoped to provide a safe and nurturing environment for people with all varieties of fitness levels, and hope to continue our valiant effort and keep being one of the best gyms in Patna. At Jamal Gym, you will find expert personal trainers that are always there to help you out, should you need it. Workout with state-of-the-art equipments and build your dream physique at the best gym in Patna, Jamal Fitness.
+			</p>
+			</div>
+		</div>
+		<div class="steam">
+			<h1>Our Cool Features</h1>
+			</div>
+            <div class="bath">
+			<img src="steamcover.jpeg" alt="not show">
+				<div class="bathp">
+					<h2>STEAM</h2>
+					<h1>WE ARE JAMAL FITNESS,THE BEST GYM IN PATNA.</h1>
+
+             <p>
+              At one of the best gyms in Patna, relax and rejuvenate with state of the art Steam baths after an intense workout session. Become a member at Ansari Gym, the best gym in Patna and enjoy exclusive privileges such as full access to Steam baths after an energizing workout.
+
+               Forget about being tired after a workout session and feel relaxed and completely energized after a relaxing Steam bath at your friendly neighbourhood Jamal fitness gym.
+			</p>
+			</div>
+		</div>
+		<div id="headingmid"><h1>Have a look at our featured classes</h1><div>
+			       <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="cardio.jpg">
+      <img src="cardio.jpg" alt="Cinque Terre" width="300" height="200">
+    </a>
+    <div class="desc">CARDIO TRAINING</div>
+  </div>
+</div>
+	       <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="crossfit.jpg">
+      <img src="crossfit.jpg" alt="Cinque Terre" width="300" height="200">
+    </a>
+    <div class="desc">CROSSFIT TRAINING</div>
+  </div>
+</div>
+	       <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="yoga.jpg">
+      <img src="yoga.jpg" alt="Cinque Terre" width="300" height="200">
+    </a>
+    <div class="desc">YOGA</div>
+  </div>
+</div>
+       <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="dumbletrainings.jpg">
+      <img src="dumbletrainings.jpg" alt="Cinque Terre" width="300" height="200">
+    </a>
+    <div class="desc">ENDURANCE TRAINING</div>
+  </div>
+</div>
+   <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="aerobics.jpg">
+      <img src="aerobics.jpg" alt="Cinque Terre" width="300" height="200">
+    </a>
+    <div class="desc">AEROBICS/ZUMBA</div>
+  </div>
+</div>
+        <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="fatty girl.jpg">
+      <img src="fatty girl.jpg" alt="Cinque Terre" width="300" height="200">
+    </a>
+    <div class="desc">WEIGHT LOSS</div>
+  </div>
+</div>
+	<div class="clearfix"></div>
+
+			<div class="row2">
+  <div class="column2">
+    <img src="gymlogo3.jpg" alt="gymlogo" height="100px"width="100px">
+    <p>At Ansari Fitness Gym, we believe in providing a holistic gymming and workout experience to our customers.</p>
+  </div>
+  <div class="column2">
+    <h2>Visit us</h2>
+    <br>
+    <p> Buddha colony near Gandhi murti, patna-800001</p>
+    <h3>Mobile Number</h3>
+      <h4>8207454525</h4>
+      <h4>7050982878</h4>
+  </div>
+  <div class="column2">
+   <h1>QUICK LINKS</h1>
+    <h2>About Ansari Fitness</h2>
+
+     <h3>Enquiry</h3>
+
+     <h3>Our Services</h3>
+
+     <h3>Sitemap</h3>
+  </div>
+  <div class="column2" style="background-color:#ddd;">
+    <h1>Connect with us</h1>
+    <h2>Email ID</h2>
+    <p>mdjamalansari939@gmail.com</p>
+    <span style="color: black; font-size: 3em;"><a target="_blank" href="http://facebook.com"><i class="fab fa-facebook"></a></i></span>
+		
+		<span style="color: black; font-size: 3em;"><a target="_blank" href="http://twitter.com"><i class="fab fa-twitter-square"></i></a></span>
+		<span style=" color: black; font-size: 3em;"><a target="_blank" href="http://whatsapp.com"><i class="fab fa-whatsapp-square"></i></a></span>
+		<span style=" color: black; font-size: 3em;"><a target="_blank" href="http://instagram.com"><i class="fab fa-instagram-square"></i></a></span>
+		
+
+  </div>
+</div>
+<div>
+		<footer id="bottom">
+			<h2>2021 All rights reserved. Designed by Software Research Center</h2>
+		</footer>
+	</div>
+</body>
+</html>

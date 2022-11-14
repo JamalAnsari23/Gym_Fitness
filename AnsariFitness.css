@@ -1,0 +1,214 @@
+#top{
+			/*border: 2px solid greenyellow;*/
+			color: white;
+			background-color: #6CABA4;
+			display: flex;
+			width: 100%;
+		}
+		#top a{
+			color: white;
+		}
+		@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #top {
+    width: 100%;
+  }
+		header{
+			position: sticky;
+			top: 0px;
+			display: inline-block;
+			float: left;
+			/*border: 2px solid green;*/
+			background-color: black;
+			width: 100%;
+		}
+		header img{
+			display: inline-block;
+			float: left;
+			margin-left: 25px;
+			margin-bottom: 10px;
+			height: 90px;
+			width: 80px;
+		}
+		header li{
+			display: inline-block;
+			float: left;
+			margin-top: 20px;
+			margin-left: 80px;
+			font-size: 24px;
+		}
+		header li a{
+			text-decoration: none;
+			color: white;
+		}
+			header li a:hover{
+						opacity: 0.5;
+						background-color: grey;
+					}
+					@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  header li a{
+    width: 100%;
+  }
+		.rside{
+			writing-mode: vertical-rl;
+			/*border: 2px solid orange;*/
+			position: relative;
+			float: right;
+			margin-top: 120px;
+			margin-right: 200px;
+			color: white;
+			text-shadow: 4px 4px 5px red;
+					}
+				
+					* {
+  box-sizing: border-box;
+}
+
+		.box2{
+			/*position: relative;*/
+			display: inline-block;
+			
+
+		}
+		.box3{
+			      position: relative;
+            margin-top: 50px;
+            display: inline-block;
+            float: left;
+            margin: 12px;
+            padding: 10px 20px;
+			width: 31%;
+			height: 300px;
+			color: black;
+			border: solid;
+			border-color: red;
+			text-align: center;
+			background-color: #07FAE0;
+      background-image: linear-gradient(#07FAE0,orange,yellow);
+
+		}
+		.box3:hover{
+			cursor: pointer;
+	  background-color: #23D5F1;
+   background-image: linear-gradient(#23D5F1,#D1B94E,#7E4376);
+   border: none;
+   border-right: 5px solid #F74E67;
+		}
+		.box3 h1{
+			color:#07FAE0 ;
+			font-size: 2em;
+		}
+		#video iframe{
+			/*border: 2px solid greenyellow;*/
+		}
+		 #formsub{
+		 	display: inline-block;
+		 	float: right;
+         	border-sizing: border-box;
+            position:relative;
+         	/*border: 2px solid darkred;*/
+         	width: 30%;
+         	height: 450px;
+         	margin-top: 0px;
+         	margin-left: 300px;
+         	padding: 15px 25px;
+         }
+       
+         input[type=text]{
+         	box-sizing: border-box;
+         	border: none;
+         	 border-bottom: 4px solid #2AF5CA;
+         	width: 100%;
+            padding: 8px 8px;
+            margin: 4px 0;
+        }
+        input[type=Email]{
+        	border-sizing: border-box;
+        	border-bottom: 4px solid #2AF5CA;
+        	width: 100%;
+        	padding: 8px 8px;
+        	margin: 4px 0;
+        }
+         input[type=number]{
+        	border-sizing: border-box;
+        	border-bottom: 4px solid #2AF5CA;
+        	width: 100%;
+        	padding: 8px 8px;
+        	margin: 4px 0;
+        }
+        .button{
+        	background-color: seagreen;
+        	color: white;
+        	width: 60%;
+        	padding: 10px 16px;
+        	margin: 6px 0;
+        	margin-left: 20%;
+        	border-radius: 10px;
+
+        }
+        .button:hover{
+        	background-color: #2AF5CA;
+          box-shadow: 0 8px 16px 0 red;
+          cursor: pointer;
+        }
+				.row{
+	margin-top: 5px;
+	margin-left: 50px;
+
+
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  margin:12px;
+  width: 22%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  border: none;
+  border-left: 5px solid #3EF65A;
+  background-color: red;
+   background-image: linear-gradient(red,yellow);
+
+}
+.column:hover{
+	cursor: pointer;
+	  background-color: #4C56F1;
+   background-image: linear-gradient(#4C56F1,#72EE10,#CD3FDC);
+   border: none;
+   border-right: 5px solid #F74E67;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .column {
+    width: 100%;
+  }
+         #bottom{
+         	position: relative;
+         	top: 5px;
+         	left: 0;
+         	width: 100%;
+         	border: 2px solid #6CABA4;
+         	background-color: #6CABA4;
+         	text-align: center;
+         	
+         	
+
+         }
+			
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .box3 {
+    width: 100%;
+  }
+
+}

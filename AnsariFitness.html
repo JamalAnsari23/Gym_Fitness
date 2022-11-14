@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ansari Fitness</title>
+	<style type="text/css">
+		body{
+			background:url("batista.jpg");
+			margin: 0px;
+			padding: 0px;
+			min-height: 202vh;
+			background-size: 100vw 225vh;
+			background-repeat: no-repeat;
+			color: white;
+			background-color: #ccc;
+		}
+		.left{
+		   /*border:2px solid red;*/
+		   display: inline-block;
+		   position: absolute;
+			left: 20px;
+			position: fixed;
+			top: 0;
+
+
+		}
+		.left img{
+			width: 130px;
+		}
+		.left div{
+			line-height: 20px;
+			font-size: 22px;
+			text-align: center;
+			font-family: "Times New Roman", Times, serif;
+		}
+		.mid{
+			/*border:2px solid green;*/
+			display: block;
+			width: 45%;
+			margin: 20px auto;
+			position: fixed;
+			left: 270px;
+			top: 0;
+		   
+		}
+		.right{
+			position: absolute;
+			right: 30px;
+			top: 20px;
+			display: inline-block;
+		   /*border:2px solid yellow;*/
+		   font-family: "Times New Roman", Times, serif;
+		   position: fixed;
+		}
+		.navbar{
+			display: inline-block;
+		}
+		.navbar li{
+			display: inline-block;
+			font-size: 20px;
+			
+		}
+		.navbar li a{
+			color: white;
+			text-decoration: none;
+			padding: 12px 10px;
+			font-family: "Times New Roman", Times, serif;
+		}
+		.navbar li a:hover,.navbar li a.active{
+			text-decoration: underline;
+			color: grey;
+		}
+		.btn{
+			margin: 0px 9px;
+			background-color: black;
+			color: white;
+			padding: 7px 15px;
+			border:2px solid grey;
+			border-radius: 13px;
+			font-size: 17px;
+			cursor: pointer;
+			font-family: "Times New Roman", Times, serif;
+
+		}
+		.btn:hover{
+			background-color: #aaa;
+		}
+		.container{
+			/*border:2px solid white;*/
+			margin: 100px 80px;
+			padding: 75px;
+			width:33%;
+			border-radius:10px; 
+		}
+		.form-group input{
+			text-align: center;
+			display: block;
+			width: 400px;
+			padding: 2px;
+			border:2px solid black;
+			margin: 3px;
+			font-size: 20px;
+			border-radius: 10px;
+
+		}
+		.container button{
+			display: block;
+			width: 45%;
+			margin:15px auto;
+		}
+		.container h1, h2{
+			text-align: center;
+			color: Red;
+		}
+		.box2{
+			display: inline-block;
+			
+
+		}
+		.box3{
+			display: inline-block;
+			margin: 10px;
+			float: left;
+			width: 31%;
+			height: 300px;
+			color: yellow;
+			border: solid;
+			border-color: red;
+			text-align: center;
+			background-color: lightpink;
+
+		}
+		footer{
+			margin-top: 240px;
+			margin-bottom: 0;
+			text-align: center;
+			background-color: #aaa;
+			padding: 5px;
+			width: 100%;
+			color: white;
+			
+			bottom: 0;
+		}
+		footer h2{
+			color: white;
+			bottom: 0;
+		}
+		
+
+	</style>
+	<link rel="stylesheet" href="JamalFitness.css">
+	<script src="https://kit.fontawesome.com/f3e8fc9f1d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	
+	<header class="header">
+		<div class="left">
+		<!-- left box for logo	 -->
+		<img src="gymlogo1.png" alt="not display">
+		<div>Ansari Fitness</div>
+		</div>
+		<div class="mid">
+			<!-- mid box for navbar -->
+			<ul class="navbar">
+			 <li><a href="AnsariFitness.html"class="active">Home</a></li>
+			 <li><a href="Aboutus.html">About Us</a></li>
+			 <li><a href="ourservices.html">Our Servivces</a></li>  
+			 <li><a href="Enquiry.html">Enquiry</a></li>
+			 <li><a href="Gallery.html">Gallery </a></li>
+			 <li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<div class="right">
+			<!-- right box for button -->
+			<button class="btn">Call us now</button>
+			<button class="btn">Email us</button>
+		</div>
+		</header>
+		<div class="container">
+			<h1>Join the best gym of patna</h1>
+			<h1>60% off</h1>
+			<h2>Diwali offer </h2>
+			<form action="noaction.php">
+				<div class="form-group">
+					<input type="text" name="" placeholder="Enter Your Name">
+				</div>
+				<div class="form-group">
+					<input type="text" name="" placeholder="Enter Your Age">
+				</div>
+				<div class="form-group">
+					<input type="text" name="" placeholder="Enter Your Gender">
+				</div>
+				<div class="form-group">
+					<input type="text" name="" placeholder="Enter Your Number">
+				</div>
+				<div class="form-group">
+					<input type="text" name="" placeholder="Enter Your locality">
+				</div>
+				<button class="btn">Submit</button>
+			</form>
+		</div>
+		<div class="box2">
+			<div class="box3">
+			<span style="padding-left: 0px; color: black; font-size: 3em;"><i class="fas fa-walking"></i></span>
+			<h1>Personal Trainings</h1>
+			<p>
+            Train with qualified instructors that know what they are talking about, and work your heart out at the best gym in Patna and Bihar, Jamal Fitness.
+            </p>
+        </div>
+        <div class="box3">
+        	<span style="padding-left: 10px; color: black; font-size: 3em;"><i class="fas fa-lock"></i></span>
+        	<h1>STEAM</h1>
+        	<p>
+            Rejuvenate after a spirited workout session at our state-of-the-art Steam Baths and get ready for your next session at Jamal Fitness.</p>
+        </div>
+        <div class="box3">
+        	<span style="padding-left: 10px; color: black; font-size: 3em;"><i class="fas fa-heartbeat"></i></i></span>
+        	<h1>Crossfit and Endurance</h1>
+        	<p>
+           
+            Build your dream physique at the best gym in Patna with top-notch Crossfit and Endurance training amenities and equipment only at Jamal Fitness.
+            </p>
+           
+        </div>
+		</div>
+		<footer>
+			<h2>2021 All rights reserved. Designed by MD JAMAL ANSARI</h2>
+		</footer>
+</body>
+</html>
